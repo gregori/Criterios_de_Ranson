@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Criterios de Ranson</string>
+    <string name="novo_paciente">Novo Paciente</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="calcular">Calcular</string>
+    <string name="lit_ase_biliar">Litíase biliar</string>
+    <string name="leuc_citos">Leucócitos</string>
+    <string name="glicemia">Glicemia</string>
+    <string name="ast_tgo">AST/TGO</string>
+    <string name="ldh">LDH</string>
+    <string name="c_l_mm3">cél./mm3</string>
+    <string name="mmol_l">mmol/L</string>
+    <string name="ui_l">UI/L</string>
+    <string name="title">Critérios de Ranson</string>
+    <string name="mortality">Mortalidade:</string>
+    <string name="score">Pontuação:</string>
+</resources>
