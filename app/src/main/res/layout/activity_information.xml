@@ -68,4 +68,47 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_percent="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/status_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/status_label"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:text="Pancreatite Grave" />
+
+    <TextView
+        android:id="@+id/show_age_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/age"
+        app:layout_constraintBottom_toTopOf="@+id/score_label"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/show_age_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/show_age_label"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:text="50" />
+
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="@string/status"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/mortality_label" />
 </androidx.constraintlayout.widget.ConstraintLayout>
